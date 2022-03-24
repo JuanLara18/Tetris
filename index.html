@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Juego Tetris">		<!-- Darle una descripcion al sitio web -->
+		<meta name="keywords" content="Tetris, Juego">		<!-- Darle unas palabras claves para facilitar su busqueda -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tetris</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="imagenes/logo.png">
+
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.sound.js"></script>
+    <script src="figuras.js"></script>
+    <script src="constantes.js"></script>
+
+  </head>
+
+  <body>
+    <div id = "encabezado"> <!-- Creamos la ficha que ocupará la parte superior con el logo que representará el titulo y la barra de navegación con los botones -->
+      <header> <!-- Ponemos el logotipo de tetris centrado-->
+          <center> 
+              <a href="index.html" margin="auto"><img src="imagenes/logo-b.png" alt="Logo de tetris" width="150" height="100"></a>
+          </center>
+      </header>
+  </div>
+
+  <script src="sketch.js"></script>
+
+  <footer class="pie"> <!-- Nos referimos con Footer a la ubicación en el documento que corresponde a la parte inferior y le definomos la clase pie -->
+    <center> <!-- Centramos el contenido que mostraremos -->
+        <div>
+            <table> <!-- Organizamos de nuevo con una tabla -->
+                <tr>
+                    <th> CREADOR:<br>Juan David Lara Camacho</th>
+                    <th> </th>
+                    <th> CONTACTO:<br><a href="mailto:Jlara@unal.udu.co">Jlara@unal.edu.co</a></th>
+                </tr>
+            </table>
+        </div>
+    </center>
+  </footer>
+
+  </body>
+</html>
